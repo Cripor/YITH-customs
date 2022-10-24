@@ -1,3 +1,8 @@
+
+//Compilación de ejercicios y códigos realizados para tickets, soluciónes a errores y personalizaciones para clientes.
+/*WordPress es un CMS de código abierto, por lo tanto, el código aquí realizado no esconde ningún tipo de información privada,
+Solo es una infima parte del trabajo que realiza el soporte de plugins premium de YITH (https://yithemes.com)*/
+
 <?php
 // Exit if accessed directly
 if ( !defined( 'ABSPATH' ) ) exit;
@@ -1181,16 +1186,4 @@ if ( ! function_exists( 'yith_wishlists_in_account_content' ) ) {
 /* Hello! I have your barcodes plugin installed. In the option "print barcodes" ---> "Print barcodes by product" I need that when selecting a variable product (example t-shirt) the chosen color and size appear on the label. Example: (blue shirt L).
 
 Is this possible? YA LO HACE*/
-
-
-
-
-/* [11:23] Hector Garcia
-Que el botón de Add to Wishlist, cuando sea un producto variable
-
-[11:23] Hector Garcia
-Solo se vea el botón cuando se ha seleccionado una variación
-
-[11:23] Hector Garcia
-Si no se ha seleccionado nada, entonces no se ve el botón */
 
